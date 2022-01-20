@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Poppins:ital,wght@0,400;1,200;1,600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background:gray;
+    font-weight: bold;
+    font-family:"outfit" serif;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 5em;
+}
+.wrapper{
+    width: 800px;
+    margin:10em auto;
+}
+.card{
+    float: left;
+    width: 250px;
+    text-align: left;
+    height: 50vh;
+    border-radius: 3em;
+}
+.card-body{
+    padding:2em ;
+    box-sizing: border-box;
+    
+
+}
+.card-body h1{
+    text-align: left;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.card-body p{
+    text-align: left;
+    line-height: 1.2em;
+    margin-bottom: 5em;
+    font-weight: 400;
+}
+.card-body button{
+    padding: 1em 2em;
+    border-radius: 5em;
+    text-align: left;
+
+}
+.card-body button:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.sedans{
+    background:hsl(31, 77%, 52%) ;
+    border-radius: .5em 0 0 .5em;
+}
+.sedans button{
+    border: 1px solid hsl(31, 77%, 52%);
+    color: hsl(31, 77%, 52%);
+}
+.luxury{
+    background: hsl(184, 100%, 22%);
+    
+}
+.luxury button{
+    border: hsl(184, 100%, 22%) solid 1px;
+    color: hsl(184, 100%, 22%);
+}
+.suv{
+    background: hsl(179, 100%, 13%);
+    border-radius:0 .5em .5em 0;
+    
+}
+.suv button{
+    border: hsl(179, 100%, 13%) solid 1px;
+    color: hsl(179, 100%, 13%);
+}
+.attribution{
+    font-size: 15px;
+    float: right;
+    margin-top: 5em;
+    text-align: center;
+ 
+    width: 100%;
+
+
+    
+}
+.attribution a{
+    text-decoration: none;
+}
+@media only screen and (max-width:868px)  {
+    .wrapper{
+        width: 80%;
+        margin:3em auto;
+        margin-bottom: 5em;
+        
+    }
+    .container{
+        padding-bottom: 5em;
+    }
+    .card{
+        
+        width:100%;
+        text-align: center;
+        border-radius: 3em;
+      
+    }
+    .card-body{
+        padding:3em ;
+        box-sizing: border-box;
+    }
+    .sedans{
+        background:hsl(31, 77%, 52%) ;
+        border-radius: .5em .5em  0 0;
+    }
+    .suv{
+        background: hsl(179, 100%, 13%);
+        border-radius:0 0 .5em .5em;
+    }
+   
+}
